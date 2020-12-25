@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<permissions>
+		<title>Danh sách - Widget</title>
+		<item>
+			<param>backend/widget/widget/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/widget/widget/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/widget/widget/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/widget/widget/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+	<permissions>
+		<title>Nhóm - [Widget]</title>
+		<item>
+			<param>backend/widget/catalogue/index</param>
+			<description>Xem</description>
+		</item>
+		<item>
+			<param>backend/widget/catalogue/create</param>
+			<description>Thêm</description>
+		</item>
+		<item>
+			<param>backend/widget/catalogue/update</param>
+			<description>Sửa</description>
+		</item>
+		<item>
+			<param>backend/widget/catalogue/delete</param>
+			<description>Xóa</description>
+		</item>
+	</permissions>
+</module>
