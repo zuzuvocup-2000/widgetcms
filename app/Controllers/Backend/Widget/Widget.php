@@ -103,6 +103,9 @@ class Widget extends BaseController{
 		$this->data['widget'] = $this->AutoloadModel->_get_where([
 			'select' => 'keyword, html,css,script,id,title,publish,catalogueid,image',
 			'table' => 'website_widget',
+			'where' => [
+				'id' => $id
+			]
 		]);
 		$this->data['widget']['html'] = base64_decode($this->data['widget']['html']);
 		$this->data['widget']['css'] = base64_decode($this->data['widget']['css']);
